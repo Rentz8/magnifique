@@ -41,7 +41,7 @@ specifiers:
   cypress: 9.4.1
   dayjs: 1.10.7
   echarts: 5.3.0
-  electron: 17.0.0
+  electron: 17.1.2
   electron-builder: 22.14.13
   electron-reloader: 1.2.2
   element-plus: 2.0.5
@@ -73,7 +73,7 @@ specifiers:
   node-fetch: 2.6.7
   nodemailer: ^6.7.2
   nprogress: ^0.2.0
-  particles.vue3: ^1.42.1
+  particles.vue3: ^1.41.2
   particlesjs: ^2.2.3
   pinia: ^2.0.11
   pnpm: 6.30.1
@@ -171,7 +171,7 @@ devDependencies:
   cypress: 9.4.1
   dayjs: 1.10.7
   echarts: 5.3.0
-  electron: 17.0.0
+  electron: 17.1.2
   electron-builder: 22.14.13
   electron-reloader: 1.2.2
   element-plus: 2.0.5_vue@3.2.31
@@ -197,7 +197,7 @@ devDependencies:
   prettier: 2.5.1
   prismjs: 1.27.0
   remarkable: 2.0.1
-  spectron: 19.0.0_electron@17.0.0
+  spectron: 19.0.0_electron@17.1.2
   ts-jest: 27.1.3_345f4e1f2ef4cce30156902e4828bdb4
   ts-node: 10.5.0_241ff727c41c38f37d2c0695b583de34
   typescript: 4.5.5
@@ -1657,12 +1657,12 @@ packages:
       - supports-color
     dev: true
 
-  /@electron/remote/2.0.4_electron@17.0.0:
+  /@electron/remote/2.0.4_electron@17.1.2:
     resolution: {integrity: sha512-8m2P/d2RH986PmMW5lKygbPEjEYJ7RgCe37Y8DQ1wujKMH6VjmLIB+Y+DP2SA611svCZc58TRSd8FraGvcfGZw==}
     peerDependencies:
       electron: '>= 13.0.0'
     dependencies:
-      electron: 17.0.0
+      electron: 17.1.2
     dev: true
 
   /@electron/universal/1.0.5:
@@ -5306,8 +5306,8 @@ packages:
     resolution: {integrity: sha512-Ks+ANzLoIrFDUOJdjxYMH6CMKB8UQo5modAwvSZTxgF+vEs/U7G5IbWFUp6dS4klPkTDVdxbORuk8xAXXhMsWw==}
     dev: true
 
-  /electron/17.0.0:
-    resolution: {integrity: sha512-3UXcBQMwbMWdPvGHaSdPMluHrd+/bc+K143MyvE5zVZ+S1XCHt4sau7dj6svJHns5llN0YG/c6h/vRfadIp8Zg==}
+  /electron/17.1.2:
+    resolution: {integrity: sha512-hqKQaUIRWX5Y2eAD8FZINWD/e5TKdpkbBYbkcZmJS4Bd1PKQsaDVc9h5xoA8zZQkPymE9rss+swjRpAFurOPGQ==}
     engines: {node: '>= 8.6'}
     hasBin: true
     requiresBuild: true
@@ -11023,12 +11023,12 @@ packages:
     resolution: {integrity: sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g==}
     dev: false
 
-  /spectron/19.0.0_electron@17.0.0:
+  /spectron/19.0.0_electron@17.1.2:
     resolution: {integrity: sha512-p8xWLCDjZstCTG+IzXURINZcvcwhKtnjN0JCEUuv6r6UzAi+pwfRye8Ww4xImknoN7gHhlgjvJthIbs3DuAnVg==}
     engines: {node: '>=12.20.0'}
     requiresBuild: true
     dependencies:
-      '@electron/remote': 2.0.4_electron@17.0.0
+      '@electron/remote': 2.0.4_electron@17.1.2
       dev-null: 0.1.1
       electron-chromedriver: 17.0.0
       got: 11.8.3
